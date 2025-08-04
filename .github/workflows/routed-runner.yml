@@ -5,10 +5,10 @@ on:
 
 jobs:
   run-on-labeled-runner:
-    runs-on: [self-hosted, custom-windows]
+    runs-on: [self-hosted, 'custom-windows']
     steps:
       - name: Print the runner name
         run: echo "Running on a self-hosted runner with label: custom-windows"
 
       - name: Show OS info
-        run: uname -a
+        run: systeminfo
