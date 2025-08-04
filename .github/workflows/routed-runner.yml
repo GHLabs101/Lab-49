@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Print the runner name
-        run: echo Running on a self-hosted runner with label: custom-windows
+        run: echo Running on a self-hosted runner with label - custom-windows
 
       - name: Show OS info
         run: systeminfo
